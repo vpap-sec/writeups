@@ -7,7 +7,7 @@ function Navbar() {
   return (
     <nav className="navbar">
       <Link to="/" className="navbar-logo">
-        The Hunter's Archive
+        The Archive
       </Link>
       <div className="navbar-links">
         <Link to="/" className={location.pathname === '/' ? 'active' : ''}>
