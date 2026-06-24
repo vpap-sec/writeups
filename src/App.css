@@ -1,0 +1,34 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg-primary: #0A0604;
+  --bg-secondary: #120C08;
+  --bg-card: #1A0F0A;
+  --accent-gold: #C4A44A;
+  --accent-blood: #8B2020;
+  --accent-crimson: #7A1F1F;
+  --text-primary: #E8D5A0;
+  --text-muted: #7A4A2A;
+  --border: #7A1F1F44;
+  --border-strong: #7A1F1F88;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: 'Georgia', serif;
+  min-height: 100vh;
+}
+
+a{
+  color: var(--accent-gold);
+  text-decoration:none;
+}
+
+a:hover{
+  color: var(--text-primary);
+}

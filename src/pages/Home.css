@@ -1,0 +1,154 @@
+.home {
+  padding: 40px 0;
+}
+
+.home-header {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.home-eyebrow {
+  color: #7A1F1F;
+  font-size: 12px;
+  letter-spacing: 0.25em;
+  margin-bottom: 12px;
+}
+
+.home h1 {
+  font-size: 36px;
+  color: #C4A44A;
+  margin-bottom: 10px;
+}
+
+.home-sub {
+  color: #7A4A2A;
+  font-size: 13px;
+  letter-spacing: 0.05em;
+}
+
+.ornament {
+  text-align: center;
+  color: #7A1F1F66;
+  font-size: 14px;
+  letter-spacing: 0.3em;
+  margin: 24px 0;
+}
+
+.stats-bar {
+  display: flex;
+  justify-content: center;
+  gap: 0;
+  border: 1px solid #7A1F1F44;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.stat {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  border-right: 1px solid #7A1F1F44;
+}
+
+.stat:last-child {
+  border-right: none;
+}
+
+.stat-value {
+  color: #C4A44A;
+  font-size: 22px;
+}
+
+.stat-label {
+  color: #7A1F1F;
+  font-size: 10px;
+  letter-spacing: 0.15em;
+  margin-top: 4px;
+}
+
+.writeup-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.writeup-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #120C08;
+  border: 1px solid #7A1F1F44;
+  border-radius: 4px;
+  padding: 16px 20px;
+  color: #E8D5A0;
+  transition: border-color 0.2s;
+}
+
+.writeup-card:hover {
+  border-color: #7A1F1F88;
+  color: #E8D5A0;
+}
+
+.card-left {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.card-title {
+  font-size: 15px;
+  color: #C4A44A;
+}
+
+.card-ctf {
+  font-size: 12px;
+  color: #7A4A2A;
+}
+
+.card-meta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.tag {
+  font-size: 10px;
+  padding: 2px 8px;
+  border-radius: 2px;
+  background: #8B202022;
+  color: #8B2020;
+  border: 1px solid #7A1F1F55;
+  font-family: monospace;
+  letter-spacing: 0.05em;
+}
+
+.card-pts {
+  color: #7A1F1F;
+  font-size: 11px;
+  font-family: monospace;
+}
+
+.card-date {
+  color: #7A4A2A55;
+  font-size: 11px;
+}
+
+.card-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 6px;
+}
+
+.card-placement {
+  color: #8B2020;
+  font-size: 11px;
+  letter-spacing: 0.05em;
+}
+
+.card-arrow {
+  color: #7A1F1F55;
+  font-size: 16px;
+}

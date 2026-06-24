@@ -1,0 +1,36 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+  border-bottom: 1px solid #7A1F1F88;
+  margin-bottom: 40px;
+}
+
+.navbar-logo {
+  color: #C4A44A;
+  font-family: 'Georgia', serif;
+  font-size: 18px;
+  letter-spacing: 0.05em;
+}
+
+.navbar-logo:hover {
+  color: #E8D5A0;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 28px;
+}
+
+.navbar-links a {
+  color: #7A4A2A;
+  font-size: 14px;
+  letter-spacing: 0.08em;
+  transition: color 0.2s;
+}
+
+.navbar-links a:hover,
+.navbar-links a.active {
+  color: #C4A44A;
+}
