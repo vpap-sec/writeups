@@ -16,7 +16,6 @@ function Scores() {
       <div className="projects-header">
         <p className="projects-eyebrow">— works & research —</p>
         <h1>Projects</h1>
-        <p className="projects-sub">tools forged in the hunt</p>
       </div>
 
       <div className="ornament">— ✦ —</div>

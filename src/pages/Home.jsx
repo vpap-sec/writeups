@@ -40,9 +40,8 @@ function Home() {
   return (
     <main className="home">
       <div className="home-header">
-        <p className="home-eyebrow">— field notes —</p>
-        <h1>The Hunter's Archive</h1>
-        <p className="home-sub">seek answers in the old blood · ctf writeups</p>
+        <h1>The Archive</h1>
+        <p className="home-sub">ctf writeups</p>
       </div>
 
       <div className="ornament">— ✦ —</div>
@@ -50,15 +49,20 @@ function Home() {
       <div className="stats-bar">
         <div className="stat">
           <span className="stat-value">{writeups.length}</span>
-          <span className="stat-label">scrolls</span>
+          <span className="stat-label">total writeups</span>
         </div>
         <div className="stat">
-          <span className="stat-value">{new Set(writeups.map(w => w.ctf)).size}</span>
-          <span className="stat-label">hunts</span>
+          <span className="stat-value">
+            {writeups.length > 0
+              ? writeups.sort((a, b) => new Date(b.date) - new Date(a.date))[0].date
+              : '-'
+            }
+          </span>
+          <span className="stat-label">latest</span>
         </div>
         <div className="stat">
-          <span className="stat-value">{writeups.find(w => w.placement)?.placement ?? '—'}</span>
-          <span className="stat-label">best rank</span>
+          <span className="stat-value">Hacker</span>
+          <span className="stat-label">HTB rank</span>
         </div>
       </div>
 
